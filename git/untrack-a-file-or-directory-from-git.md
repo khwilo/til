@@ -18,5 +18,5 @@ $ git rm -r --cached <directory name>
 
 ## Reference
 
-[first_source](http://stackoverflow.com/questions/15027873/untrack-and-stop-tracking-files-in-git)
-[second_source](http://stackoverflow.com/questions/22924633/gitignore-is-not-ignoring-directories)
+1. [first_source](http://stackoverflow.com/questions/15027873/untrack-and-stop-tracking-files-in-git)
+2. [second_source](http://stackoverflow.com/questions/22924633/gitignore-is-not-ignoring-directories)
