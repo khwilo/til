@@ -32,6 +32,6 @@ Issue these vim commands while in "command mode" of the vi/vim editor. Hit the [
 
 ### Reference
 
-1. [link 1](http://alvinalexander.com/blog/post/linux-unix/how-to-display-line-numbers-vi-vim-editor)
+1. [link 1](http://alvinalexander.com/blog/post/linux-unix/how-display-line-numbers-vi-vim-editor)
 2. [link 2](http://vim.wikia.com/wiki/Display_line_numbers)
 3. [link 3](http://www.cyberciti.biz/faq/vi-show-line-numbers)
