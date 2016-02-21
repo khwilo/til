@@ -2,7 +2,7 @@
 
 If you have a hash with a key "apple" and you want to get it then you do this:  
 
-```
+```ruby
 mystuff = {'apple' => "I AM APPLES!"}
 puts mystuff['apple']
 ```  
@@ -17,7 +17,7 @@ puts mystuff['apple']
 
 *Example of a module with a function and variable in it*  
 
-```
+```ruby
 module MyStuff
   def MyStuff.apple()
     puts "I AM APPLES!"
@@ -29,7 +29,7 @@ end
 
 *Accessing the function and variable*  
 
-```
+```ruby
 require "./mystuff.rb"
 
 MyStuff.apple()
@@ -40,7 +40,7 @@ puts MyStuff::TANGERINE
 
 Creating a class just like the `mystuff.rb` module above:  
 
-```
+```ruby
 class MyStuff
 
   def initialize()
@@ -58,7 +58,7 @@ end
 
 To access the function and the variable first *instantiate* the class by calling the class `new` function:  
 
-```
+```ruby
 thing = MyStuff.new()
 thing.apple()
 puts thing.tangerine
