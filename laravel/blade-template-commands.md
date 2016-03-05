@@ -31,4 +31,6 @@
 * `@append` - Ends section and appends it to existing section of same name  
 * `@overwrite` - Ends section, overwriting previous section of same name  
 
-Credits [laravel-recipes](http://www.laravel-recipes.com/recipes/248/knowing-all-the-blade-template-commands)
+Credits [laravel-recipes](http://www.laravel-recipes.com/recipes/248/knowing-all-the-blade-template-commands)  
+
+Another good reference: [Templates](https://laravel.com/docs/5.0/templates)
