@@ -15,7 +15,9 @@
 6. Date parsing  
  * [Chronic](https://github.com/mojombo/chronic)  
 7. Undo things after editing (e.g., deleting)  
- * [Paranoia](https://github.com/rubysherpas/paranoia)  
+ * [Paranoia](https://github.com/rubysherpas/paranoia)
+8. Mute assets pipeline log messages.
+ * [quiet_assets](https://github.com/evrone/quiet_assets)
 
 ## Geolocation
 1. [Geocoder](http://www.rubygeocoder.com/)  
