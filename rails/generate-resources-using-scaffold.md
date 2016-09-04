@@ -14,6 +14,9 @@ To update the database with the new **users** data model, *migrate* the database
 ```bash
 $ bundle exec rake db:migrate
 ```  
+**NB:**  
+Rails versions before Rails 5 used `rake db:migrate`.  
+With the introduction of Rails 5, the default is `rails db:migrate`.  
 
 The `bundle exec` command ensures that the command uses the version of Rake corresponding to the Gemfile.  
 
