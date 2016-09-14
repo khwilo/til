@@ -41,6 +41,9 @@
 ## Search  
 1. Adding search to a site  
  * [Algolia](http://www.algolia.com/)  
+2. [Simple ElasticSearch client for ruby](https://github.com/printercu/elastics-rb)  
+3. [Ruby integrations for Elasticsearch](https://github.com/elastic/elasticsearch-ruby)  
+4. [Rails simple search](https://github.com/yzhanginwa/rails-simple-search)
 
 [Algolia demos](https://www.algolia.com/demo/autocomplete)  
 
