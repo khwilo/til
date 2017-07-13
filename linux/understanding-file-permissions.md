@@ -42,6 +42,17 @@ In the case for the 3 digits `777?`, the first digit is assigned to the Owner, t
 ```
 
 ## Setting permission in CLI
-`chmod 775 /path/to/file`
+`chmod 775 /path/to/file`  
+
+## Changing Group Membership with usermod
+Adding a user to a specific group:  
+```bash
+$ sudo usermod -a -G new-group noel
+```
+This command tells us to add the user noel to the `new-group`. The `a` options means **append** without which `usermod`
+will overwrite the existing group membership(s) for noel. The option `-G` specifies the group to add the user to. Removing a user can be done by using the `gpasswd` command:
+```
+$ sudo gpasswd -d noel new-group
+```
 
 [source](https://www.maketecheasier.com/file-permissions-what-does-chmod-777-means/)
