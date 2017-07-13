@@ -14,7 +14,14 @@ chown - change ownership
 
 If you want different users to have read and write access to a particular folder then make them join a special group. If you know the users in your system and know your network is safe then change the permissions of the folder to give them access:  
 
-`sudo chmod -R ugo+rw /path/to/file`  
+```bash
+$ sudo chmod -R ugo+rw /path/to/file
+```
+
+To remove permissions use the minus (`-`) sign:  
+```bash
+$ sudo chmod -R ugo-rw /path/to/file
+```
 
 The breakdown of the above command:  
 
@@ -38,7 +45,9 @@ x - execute
 ## Command line: File ownership
 Lets say you have Khwilo moved a folder for Noel into the SHARE directory- but Khwilo still has ownership. This can be done with a simple command:  
 
-`sudo chown -R noel /path/to/file`  
+```bash
+$ sudo chown -R noel /path/to/file
+```
 
 Breaking the above command down:  
 
