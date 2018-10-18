@@ -2,7 +2,7 @@
 
 > Things that I learn at least every day
 
-I challenge myself to learn new things *at least* every day. Keeping a record of the things that I learn is a sure bet for me that I will remember them easily rather than just keeping them in memory alone.
+I challenge myself to learn new things *at least* every day. Keeping a record of the things that I learn is a sure way for me to remember them easily.
 
 I challenge you also to make your own *TIL*.
 
