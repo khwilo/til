@@ -99,3 +99,57 @@ docker attach <container-id>
 ```bash
 docker run --name <container-name> <image-name>
 ```
+
+## Run a container with a specific version of an image
+
+E.g run a container based on the redis 4.0 version. The `4.0` section is commonly known as the **tag**.
+
+```bash
+docker run redis:4.0
+```
+
+## Provide input to docker
+
+RUN - STDIN:
+
+```bash
+docker run -i <image-name>
+```
+
+The above command brings the container to an interactive mode but the prompt from the container is not displayed. To display the prompt, attach the container's terminal:
+
+```bash
+docker run -it <image-name>
+```
+
+## Port mapping
+
+Map port 80 of the `localhost` to port 5000 of the docker container:
+
+```bash
+docker run -p 80:5000 <image-name>
+```
+
+## Volume mapping
+
+Persisting data in the container. To persist data, map a directory outside the container on the Docker host to a directory inside the Docker container.
+
+E.g. map the directory `/opt/datadir` outside the container to `/var/lib/mysql`
+
+```bash
+docker run -v /opt/datadir:/var/lib/mysql mysql
+```
+
+## Inspect container
+
+View additional details about a specific container. Returns all the details about a Docker container in JSON format.
+
+```bash
+docker inspect <container-name> / <container-id>
+```
+
+## View container logs
+
+```bash
+docker logs <container-id> / <container-name>
+```
